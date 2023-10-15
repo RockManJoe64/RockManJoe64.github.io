@@ -8,3 +8,7 @@ layout: home
 # Welcome to my blog!
 
 ## Hello World!
+
+{% for post in site.posts %}
+[{{ post.title }}]({{ post.url }})
+{% endfor %}

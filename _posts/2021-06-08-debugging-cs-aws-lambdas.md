@@ -64,8 +64,6 @@ The real benefits from using the toolkit comes in two ways:
 - Using the AWS SAM CLI tool to startup a running API to do integration
   testing.
 
-{% include amazon_ad.html %}
-
 ## Visual Studio Debugger
 
 When you use the debugger in Visual Studio, the toolkit will run a UI called

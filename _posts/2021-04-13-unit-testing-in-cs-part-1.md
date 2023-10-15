@@ -81,8 +81,6 @@ But writing unit tests can give you the same satisfaction as writing the code
 itself. Seeing your unit tests pass in the test runner, and seeing that green
 color as feedback, does give a certain level of satisfaction.
 
-{% include amazon_ad.html %}
-
 ## I don't know how to unit test
 
 Now that we're done with the appetizer, let's dig into le plat de résistance!

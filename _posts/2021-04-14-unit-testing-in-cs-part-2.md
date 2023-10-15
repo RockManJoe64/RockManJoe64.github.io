@@ -155,8 +155,6 @@ Shouldly.ShouldAssertException : actualResult should be 2 but was 3
 
 This becomes more useful when you are doing test-driven development, or are doing more complex assertions.
 
-{% include amazon_ad.html %}
-
 ## Dissection of a Unit Test
 
 Now it's time to put it all together! Let's walk through a unit test. Consider the following example code and it's associated unit test.

@@ -40,8 +40,6 @@ I attempted to use the [Live Package Override](https://docs.aws.amazon.com/ampli
   </figcaption>
 </figure>
 
-{% include amazon_ad.html %}
-
 ## The Solution
 
 So I had no other choice but to use a custom build image. I polished my laptop screen, brewed some Cafe Bustelo, and hunkered down for a long ride ☕. Using the power of Docker, AWS documentation, and Google search, I went through many iterations to create the one custom image to build them all!

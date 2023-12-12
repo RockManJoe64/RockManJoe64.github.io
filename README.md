@@ -1,6 +1,8 @@
 # RockManJoe64.github.io
 
-This is a template for creating applications using Next.js 13 (app directory) and NextUI (v2).
+My personal website hosted on GitHub Pages.
+
+This site uses Next.js 13 (app directory) and NextUI (v2).
 
 ## Technologies Used
 

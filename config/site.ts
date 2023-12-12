@@ -62,7 +62,7 @@ export const siteConfig = {
   links: {
     github: "https://github.com/RockManJoe64",
     mastodon: "https://fosstodon.org/@rockmanjoe",
-    discord: "https://discord.gg/9b6yyZKmH4",
+    discord: "https://discordapp.com/users/rockmanjoe",
     sponsor: "https://patreon.com/jrgarciadev",
   },
 };

@@ -1,3 +1,4 @@
+"use client"; // TODO eventually remove, we want to use server side rendering for this component
 import {
   DiscordIcon,
   GithubIcon,
@@ -10,7 +11,7 @@ import { ThemeSwitch } from "@/components/theme-switch";
 import { siteConfig } from "@/config/site";
 import { Button } from "@nextui-org/button";
 import { Input } from "@nextui-org/input";
-import { Kbd } from "@nextui-org/kbd";
+import { Kbd, KbdKey } from "@nextui-org/kbd";
 import { Link } from "@nextui-org/link";
 import {
   NavbarBrand,
@@ -24,8 +25,15 @@ import {
 import { link as linkStyles } from "@nextui-org/theme";
 import clsx from "clsx";
 import NextLink from "next/link";
+import { useEffect, useState } from "react";
 
 export const Navbar = () => {
+  const [commandKey, setCommandKey] = useState("command");
+  useEffect(() => {
+    const isMacOs = window.navigator.userAgent.includes("Mac");
+    setCommandKey(isMacOs ? "command" : "ctrl");
+  }, []);
+
   const searchInput = (
     <Input
       aria-label="Search"
@@ -34,7 +42,8 @@ export const Navbar = () => {
         input: "text-sm",
       }}
       endContent={
-        <Kbd className="hidden lg:inline-block" keys={["command"]}>
+        // TODO: Move into another component and mark as use client
+        <Kbd className="hidden lg:inline-block" keys={[commandKey as KbdKey]}>
           K
         </Kbd>
       }

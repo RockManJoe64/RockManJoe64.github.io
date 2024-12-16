@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@gitgraph/js':
+        specifier: ^1.4.0
+        version: 1.4.0
       astro:
         specifier: ^5.0.5
         version: 5.0.5(rollup@4.28.1)(typescript@5.7.2)
@@ -332,6 +335,12 @@ packages:
     engines: {node: '>=18'}
     cpu: [x64]
     os: [win32]
+
+  '@gitgraph/core@1.5.0':
+    resolution: {integrity: sha512-8CeeHbkKoFHM1y9vfjYiHyEpzl1mEhVrg5c/eFgDBsntOYswoDKU2yOf6DjtVINcE60wmcuynBSJqjMkQo07Ww==}
+
+  '@gitgraph/js@1.4.0':
+    resolution: {integrity: sha512-7wxTTCFnRVjsqj+Zt09+3F79WhH4MK46ZS20AwbcB/MJFshSMeMH4nYmNDPa9McVsiL+cFsvW1pmZoquAOoHMw==}
 
   '@img/sharp-darwin-arm64@0.33.5':
     resolution: {integrity: sha512-UT4p+iz/2H4twwAoLCqfA9UH5pI6DggwKEGuaPy7nCVQ8ZsiY5PIcrRvD1DzuY3qYL07NtIQcWnBSY/heikIFQ==}
@@ -1691,6 +1700,12 @@ snapshots:
 
   '@esbuild/win32-x64@0.24.0':
     optional: true
+
+  '@gitgraph/core@1.5.0': {}
+
+  '@gitgraph/js@1.4.0':
+    dependencies:
+      '@gitgraph/core': 1.5.0
 
   '@img/sharp-darwin-arm64@0.33.5':
     optionalDependencies:

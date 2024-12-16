@@ -1,0 +1,42 @@
+{
+    "commits": [
+        {
+            "type": "branch",
+            "date": "2001-06-01",
+            "message": "Initial commit",
+            "commits": [
+                {
+                    "type": "commit",
+                    "date": "2001-08-01",
+                    "message": "Started freshman year at Texas A&M University",
+                    "url": "job-01-college-student.md"
+                },
+                {
+                    "type": "commit",
+                    "date": "2004-06-01",
+                    "message": "Summer internship at Merrill Lynch",
+                    "url": "job-02-summer-intern.md"
+                },
+                {
+                    "type": "commit",
+                    "date": "2005-06-01",
+                    "message": "Summer internship at Merrill Lynch",
+                    "url": "job-03-summer-intern.md"
+                },
+                {
+                    "type": "branch",
+                    "date": "2006-07-01",
+                    "message": "Full-time Software Developer at Merrill Lynch",
+                    "url": "job-04-software-developer-ML.md",
+                    "commits": []
+                },
+                {
+                    "type": "merge-commit",
+                    "date": "2008-07-01",
+                    "message": "Full-time Software Developer at Merrill Lynch",
+                    "url": "job-05-.md"
+                }
+            ]
+        }
+    ]
+}

@@ -1,5 +1,5 @@
 {
-  "name": "tested-transit",
+  "name": "rockmanjoe64-astro",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -9,6 +9,7 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@gitgraph/js": "^1.4.0",
     "astro": "^5.0.5"
   }
 }
